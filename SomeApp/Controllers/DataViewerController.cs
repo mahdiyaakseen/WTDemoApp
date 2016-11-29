@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using Common.Logging;
 
 using Microsoft.AspNet.Identity;
+using SomeApp.Models;
 
 namespace SomeApp.Controllers
 {
@@ -84,6 +85,7 @@ namespace SomeApp.Controllers
             }
         }
 
+       
     }
 
 }

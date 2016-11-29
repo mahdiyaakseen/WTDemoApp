@@ -27,7 +27,8 @@ namespace SomeApp.Controllers
             var owinContext = Request.GetOwinContext();
             if (owinContext.Authentication.User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Index", "DataViewer");
+                // return RedirectToAction("Index", "DataViewer");
+                return RedirectToAction("Index", "CurveSelector");
             }
             else
             {

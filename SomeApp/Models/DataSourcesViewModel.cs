@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
@@ -17,4 +18,6 @@ namespace SomeApp.Models
         public IEnumerable<DataCore.Client.Model.ComponentInfo> DataSources { get; set; }
 
     }
+
+
 }
